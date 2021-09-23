@@ -4,8 +4,12 @@
   color: white;
   width: 100%;
 }
+.main__left {
+}
 .main__left > h1 {
   font-size: 3rem !important;
+}
+.main__left > .title {
 }
 .main__left > p {
   font-size: 2rem !important;
