@@ -14,8 +14,26 @@
   font-size: 1.5rem !important;
 }
 .about h1 {
-  font-size: 2rem !important;
+  font-size: 3rem !important;
 }
 .about p {
   font-size: 1.5rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .main__left > h1 {
+    font-size: 2rem !important;
+  }
+  .main__left > p {
+    font-size: 2rem !important;
+  }
+  .main__left > .content {
+    font-size: 1rem !important;
+  }
+  .about h1 {
+    font-size: 2rem !important;
+  }
+  .about p {
+    font-size: 1rem !important;
+  }
 }
