@@ -1,20 +1,24 @@
 .main {
-    background-color: #06092d;
-    color: white;
-    width: 100%;
-  }
+  background-color: #06092d;
+  color: white;
+  width: 100%;
+}
 .main__left {
-  }
+}
 .main__left > h1 {
-    font-size: 3rem !important;
-  }
+  font-size: 3rem !important;
+}
 .main__left > .title {
-  }
+}
 .main__left > p {
-    font-size: 2rem !important;
-  }
+  font-size: 2rem !important;
+}
 .main__left > .content {
-    font-size: 1.5rem !important;
-  }
-.main__right > img {
-  }
+  font-size: 1.5rem !important;
+}
+.about h1 {
+  font-size: 2rem !important;
+}
+.about p {
+  font-size: 1.5rem !important;
+}
