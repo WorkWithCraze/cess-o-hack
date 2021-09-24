@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <title>Home - Brand</title>
+    <title>CESS-O-HACK </title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -198,5 +198,44 @@
     <!-- Footer End -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>
+    
+    <script language=javascript>
+      var rev = "fwd";
+      function titlebar(val){
+          var msg  = "Join CESS-O-HACK";
+          var res = " ";
+          var speed = 100;
+          var pos = val;
+          msg = msg+"     Hackathon 3.O  ";
+          var le = msg.length;
+          if(rev == "fwd"){
+              if(pos < le){
+                  pos = pos+1;
+                  scroll = msg.substr(0,pos);
+                  document.title = scroll;
+                  timer = window.setTimeout("titlebar("+pos+")",speed);
+              }
+              else {
+                  rev = "bwd";
+                  timer = window.setTimeout("titlebar("+pos+")",speed);
+              }
+          }
+          else {
+              if(pos > 0) {
+                  pos = pos-1;
+                  var ale = le-pos;
+                  scrol = msg.substr(ale,le);
+                  document.title = scrol;
+                  timer = window.setTimeout("titlebar("+pos+")",speed);
+              }
+              else {
+                  rev = "fwd";
+                  timer = window.setTimeout("titlebar("+pos+")",speed);
+              }
+          }
+      }
+      titlebar(0);
+  </script>
+
   </body>
 </html>
