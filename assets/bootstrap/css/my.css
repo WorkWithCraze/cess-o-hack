@@ -37,3 +37,8 @@
     font-size: 1rem !important;
   }
 }
+
+
+.navbar-collapse {
+  margin: 25px 50px 0px 50px;
+}
