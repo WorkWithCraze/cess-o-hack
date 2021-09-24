@@ -54,7 +54,7 @@
   flex-direction: column;
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
-  color: #7288a2;
+  color: #B5DEFF  ;
   font-size: 1.15rem;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
@@ -62,14 +62,14 @@
 .accordion a:hover,
 .accordion a:hover::after {
   cursor: pointer;
-  color: #ff5353;
+  color: purple;
 }
 .accordion a:hover::after {
-  border: 1px solid #ff5353;
+  border: 1px solid purple;
 }
 .accordion a.active {
-  color: #ff5353;
-  border-bottom: 1px solid #ff5353;
+  color: purple;
+  border-bottom: 1px solid purple;
 }
 .accordion a::after {
   font-family: "Ionicons";
@@ -91,8 +91,8 @@
 .accordion a.active::after {
   font-family: "Ionicons";
   content: "\f209";
-  color: #ff5353;
-  border: 1px solid #ff5353;
+  color: purple;
+  border: 1px solid purple;
 }
 .accordion .content {
   opacity: 0;
