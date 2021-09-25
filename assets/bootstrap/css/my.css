@@ -65,7 +65,12 @@
   color: purple;
 }
 .accordion a:hover::after {
+  color: rgb(0, 0, 0);  
   border: 1px solid purple;
+}
+.test {
+  color: rgb(0, 0, 0) !important;  
+  text-decoration: none !important;
 }
 .accordion a.active {
   color: purple;
