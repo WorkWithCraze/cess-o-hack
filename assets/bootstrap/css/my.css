@@ -6,12 +6,15 @@
 }
 .main__left > h1 {
   font-size: 3rem !important;
+  text-align: center;
 }
 .main__left > p {
+  text-align: center;
   font-size: 2rem !important;
 }
 .main__left > .content {
   font-size: 1.5rem !important;
+  text-align: left;
 }
 .about h1 {
   font-size: 3rem !important;
@@ -29,9 +32,10 @@
   }
   .main__left > .content {
     font-size: 1rem !important;
+    text-align: center;
   }
   .about h1 {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
   .about p {
     font-size: 1rem !important;
@@ -54,7 +58,7 @@
   flex-direction: column;
   width: 100%;
   padding: 1rem 3rem 1rem 1rem;
-  color: #B5DEFF  ;
+  color: #b5deff;
   font-size: 1.15rem;
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
