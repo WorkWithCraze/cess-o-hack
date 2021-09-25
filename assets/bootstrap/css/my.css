@@ -45,7 +45,7 @@
   margin: 25px 50px 0px 50px;
 }
 
-.accordion a {
+.accordion a:not([href]) {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -63,12 +63,12 @@
   font-weight: 400;
   border-bottom: 1px solid #e5e5e5;
 }
-.accordion a:hover,
-.accordion a:hover::after {
+.accordion a:not([href]):hover,
+.accordion a:not([href]):hover::after {
   cursor: pointer;
   color: purple;
 }
-.accordion a:hover::after {
+.accordion a:not([href]):hover::after {
   color: rgb(0, 0, 0);  
   border: 1px solid purple;
 }
@@ -76,11 +76,11 @@
   color: rgb(0, 0, 0) !important;  
 }
 
-.accordion a.active {
+.accordion a.active:not([href]) {
   color: rgb(133, 126, 133);
   border-bottom: 1px solid purple;
 }
-.accordion a::after {
+.accordion a:not([href])::after {
   font-family: "Ionicons";
   content: "\f218";
   position: absolute;
@@ -97,7 +97,7 @@
   border: 1px solid #7288a2;
   text-align: center;
 }
-.accordion a.active::after {
+.accordion a.active:not([href])::after {
   font-family: "Ionicons";
   content: "\f209";
   color: purple;
