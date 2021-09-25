@@ -70,10 +70,10 @@
 }
 .test {
   color: rgb(0, 0, 0) !important;  
-  text-decoration: none !important;
 }
+
 .accordion a.active {
-  color: purple;
+  color: rgb(133, 126, 133);
   border-bottom: 1px solid purple;
 }
 .accordion a::after {
