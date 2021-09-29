@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
+
+.logo {
+	margin: -1rem 1rem -1rem -2rem;
+	height: 6rem;
+}
+
 .main {
   background-color: #06092d;
   color: white;
@@ -14,7 +20,7 @@
 }
 .main__left > .content {
   font-size: 1.5rem !important;
-  text-align: left;
+  text-align: center;
 }
 .about h1 {
   font-size: 3rem !important;
@@ -40,10 +46,15 @@
   .about p {
     font-size: 1rem !important;
   }
+  .logo {
+    margin: -1rem 0 -1rem 0rem !important;
+    height:4rem !important;
+  }
+  .navbar span {
+    font-size: 1.5rem !important;
+  }
 }
-.navbar-collapse {
-  margin: 25px 50px 0px 50px;
-}
+
 
 .accordion a:not([href]) {
   position: relative;
@@ -73,7 +84,8 @@
   border: 1px solid purple;
 }
 .test {
-  color: rgb(0, 0, 0) !important;  
+	color: rgb(0, 0, 0) !important;
+	font-weight: 600 !important;
 }
 
 .accordion a.active:not([href]) {
@@ -222,3 +234,6 @@ html,body {
   overflow-x:hidden;
 }   
 
+.navbar span {
+  font-size: 2.5rem;
+}
