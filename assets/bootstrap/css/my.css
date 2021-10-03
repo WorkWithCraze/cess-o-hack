@@ -57,9 +57,19 @@
   padding-top: 3rem !important ;
   padding-bottom: 3rem !important;
 }
+#sponsors h1 {
+  text-shadow: 0px 4px 0px gray;
+}
+#sponsors h2 {
+  text-shadow: 0px 2px 0px gray;
+}
 #team {
   padding-top: 3rem !important ;
   padding-bottom: 3rem !important;
+}
+#team h1,
+h5 {
+  text-shadow: 0px 2px 0px gray;
 }
 @media only screen and (max-width: 600px) {
   .main__left > h1 {
