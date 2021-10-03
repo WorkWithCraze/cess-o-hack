@@ -30,16 +30,18 @@
 }
 .tracks {
   font-size: 2rem;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to top,
     #e6dee9 100%,
     #fdcbf1 1%,
     #fdcbf1 0%
-  );
+  ); */
+  background-color: #fac2ffa6;
 }
 .tracks h1 {
   font-size: 3rem !important;
   color: #f6f6f6;
+  /* color: rgb(87, 85, 85); */
   text-shadow: 2px 3px 8px black;
 }
 .mycard {
@@ -48,8 +50,9 @@
 }
 .mycard h3 {
   font-size: 2rem;
-  color: #f6f6f6;
-  text-shadow: 2px 3px 8px black;
+  /* color: #f6f6f6; */
+  color: rgb(51, 51, 51);
+  /* text-shadow: 2px 3px 8px black; */
   margin-bottom: 1.5rem;
 }
 .mycard img {
@@ -130,7 +133,7 @@ h3 {
   border: 1px solid purple;
 }
 .test {
-  color: rgb(0, 0, 0) !important;
+  color: #421e42 !important;
   font-weight: 600 !important;
 }
 
@@ -282,4 +285,16 @@ body {
 
 .navbar span {
   font-size: 2.5rem;
+}
+
+.footer {
+  background-color: #06092d;
+  color: white !important;
+  padding-top: 3rem !important;
+}
+.footer a:hover {
+  color: #06092d !important;
+}
+.footer i {
+  color: white !important;
 }
