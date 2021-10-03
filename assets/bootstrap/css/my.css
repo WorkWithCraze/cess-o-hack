@@ -28,6 +28,31 @@
 .about p {
   font-size: 1.5rem !important;
 }
+.tracks {
+  font-size: 2rem;
+  background-color: rgba(237, 27, 82, 255);
+}
+.tracks h1 {
+  font-size: 3rem !important;
+  color: white;
+  text-shadow: 0px 2px 2px black;
+}
+.mycard {
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+.mycard h3 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0px 2px 2px black;
+  margin-bottom: 1.5rem;
+}
+.mycard img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 3px black;
+}
 
 @media only screen and (max-width: 600px) {
   .main__left > h1 {
