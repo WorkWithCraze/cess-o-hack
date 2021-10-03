@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap");
 
 .logo {
-	margin: -1rem 1rem -1rem -2rem;
-	height: 6rem;
+  margin: -1rem 1rem -1rem -2rem;
+  height: 6rem;
 }
 
 .main {
@@ -28,7 +28,49 @@
 .about p {
   font-size: 1.5rem !important;
 }
-
+.tracks {
+  font-size: 2rem;
+  background-color: rgba(237, 27, 82, 255);
+}
+.tracks h1 {
+  font-size: 3rem !important;
+  color: white;
+  text-shadow: 0px 2px 2px black;
+}
+.mycard {
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+.mycard h3 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0px 2px 2px black;
+  margin-bottom: 1.5rem;
+}
+.mycard img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 3px black;
+}
+#sponsors {
+  padding-top: 3rem !important ;
+  padding-bottom: 3rem !important;
+}
+#sponsors h1 {
+  text-shadow: 0px 4px 0px gray;
+}
+#sponsors h2 {
+  text-shadow: 0px 2px 0px gray;
+}
+#team {
+  padding-top: 3rem !important ;
+  padding-bottom: 3rem !important;
+}
+#team h1,
+h3 {
+  text-shadow: 0px 2px 0px gray;
+}
 @media only screen and (max-width: 600px) {
   .main__left > h1 {
     font-size: 2rem !important;
@@ -48,13 +90,12 @@
   }
   .logo {
     margin: -1rem 0 -1rem 0rem !important;
-    height:4rem !important;
+    height: 4rem !important;
   }
   .navbar span {
     font-size: 1.5rem !important;
   }
 }
-
 
 .accordion a:not([href]) {
   position: relative;
@@ -80,12 +121,12 @@
   color: purple;
 }
 .accordion a:not([href]):hover::after {
-  color: rgb(0, 0, 0);  
+  color: rgb(0, 0, 0);
   border: 1px solid purple;
 }
 .test {
-	color: rgb(0, 0, 0) !important;
-	font-weight: 600 !important;
+  color: rgb(0, 0, 0) !important;
+  font-weight: 600 !important;
 }
 
 .accordion a.active:not([href]) {
@@ -227,12 +268,12 @@
   }
 }
 
-
-html,body {
-  margin:0;
-  padding:0;
-  overflow-x:hidden;
-}   
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 
 .navbar span {
   font-size: 2.5rem;
