@@ -30,12 +30,17 @@
 }
 .tracks {
   font-size: 2rem;
-  background-color: rgba(237, 27, 82, 255);
+  background-image: linear-gradient(
+    to top,
+    #e6dee9 100%,
+    #fdcbf1 1%,
+    #fdcbf1 0%
+  );
 }
 .tracks h1 {
   font-size: 3rem !important;
-  color: white;
-  text-shadow: 0px 2px 2px black;
+  color: #f6f6f6;
+  text-shadow: 2px 3px 8px black;
 }
 .mycard {
   border-radius: 50%;
@@ -43,8 +48,8 @@
 }
 .mycard h3 {
   font-size: 2rem;
-  color: white;
-  text-shadow: 0px 2px 2px black;
+  color: #f6f6f6;
+  text-shadow: 2px 3px 8px black;
   margin-bottom: 1.5rem;
 }
 .mycard img {
