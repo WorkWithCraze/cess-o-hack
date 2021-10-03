@@ -53,7 +53,14 @@
   border-radius: 50%;
   box-shadow: 0px 3px 3px black;
 }
-
+#sponsors {
+  padding-top: 3rem !important ;
+  padding-bottom: 3rem !important;
+}
+#team {
+  padding-top: 3rem !important ;
+  padding-bottom: 3rem !important;
+}
 @media only screen and (max-width: 600px) {
   .main__left > h1 {
     font-size: 2rem !important;
